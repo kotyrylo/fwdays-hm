@@ -1,0 +1,1 @@
+host url: http://kyrylo-fwdays-hm-1.s3-website.eu-north-1.amazonaws.com/
