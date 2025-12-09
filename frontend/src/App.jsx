@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import './styles/App.css'
+import TodoPage from './pages/TodoPage'
 
 // Page components
 function Home() {
@@ -48,6 +49,7 @@ function App() {
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/todo">Todo</Link>
         </div>
       </nav>
       
@@ -57,6 +59,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/todo" element={<TodoPage />} />
         </Routes>
       </main>
     </div>
