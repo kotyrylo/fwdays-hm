@@ -1,0 +1,22 @@
+{
+  "name": "lambdas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.947.0",
+    "@aws-sdk/util-dynamodb": "^3.947.0",
+    "aws-lambda": "^1.0.7",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.159",
+    "@types/node": "^24.10.2"
+  }
+}
